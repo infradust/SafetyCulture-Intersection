@@ -8,7 +8,9 @@ $ docker run --rm -it -v <path of the repository>:/app node /bin/bash
 -> at the container
 $ cd /app
 $ node ./lib/app.js <number of second to simulate>
-$ node test <---testing
+---- Testing ----
+$ npm install
+$ node test 
 ```
 
 ## Usage
