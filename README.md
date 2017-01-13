@@ -1,5 +1,4 @@
-# junction-task [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
-> A coding task for SafetyCulture - implement a road junction trafic light system
+A coding task for SafetyCulture - implement a road junction trafic light system
 
 ## Installation
 clone the repository: https://github.com/infradust/SafetyCulture-Intersection.git
