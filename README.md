@@ -2,27 +2,23 @@
 > A coding task for SafetyCulture - implement a road junction trafic light system
 
 ## Installation
-
+clone the repository: https://github.com/infradust/SafetyCulture-Intersection.git
 ```sh
-$ npm install --save junction-task
+$ docker run --rm -it -v <path of the repository>:/app node /bin/bash
+-> at the container
+$ cd /app
+$ node ./lib/app.js <number of second to simulate>
+$ node test <---testing
 ```
 
 ## Usage
 
 ```js
-var junctionTask = require('junction-task');
-
-junctionTask('Rainbow');
+node <path>/app.js <number of seconds to simulate>
 ```
 ## License
 
-unlicense © [Dan Shelly]()
+free © [Dan Shelly]()
 
 
-[npm-image]: https://badge.fury.io/js/junction-task.svg
-[npm-url]: https://npmjs.org/package/junction-task
-[travis-image]: https://travis-ci.org//junction-task.svg?branch=master
-[travis-url]: https://travis-ci.org//junction-task
-[daviddm-image]: https://david-dm.org//junction-task.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org//junction-task
 # SafetyCulture-Intersection
